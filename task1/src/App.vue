@@ -1,0 +1,44 @@
+<template>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+    .more {
+            color: green;
+        }
+
+        .less {
+            color: red;
+        }
+
+
+        .card {
+            box-shadow: 5px 5px 5px rgba(132, 205, 228, 0.205);
+        }
+
+        .card:hover {
+            background-image: linear-gradient(to top, rgb(182, 215, 235) 20%, white);
+
+        }
+</style>
